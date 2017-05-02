@@ -1,5 +1,8 @@
 node {
    
+   	stage('Checkout') {
+    		checkout scm
+	}
 
    	stage('Build') {
 		slackSend "$JOB_NAME: Build begun."
