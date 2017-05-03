@@ -20,8 +20,7 @@ node {
 	}
 
    	stage('Archive') {
-		fingerprint '*.bar'
-		archiveArtifacts '*.bar'
+		archiveArtifacts allowEmptyArchive: true, artifacts: '*.jar', fingerprint: true, onlyIfSuccessful: true
 	}
 
 }
