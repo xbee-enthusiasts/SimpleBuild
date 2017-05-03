@@ -1,18 +1,5 @@
 node {
 
-	/*
-   	stage('Checkout') {
-		checkout([$class: 'GitSCM'
-                	//, branches: [[name: '*/master']]
-                	, doGenerateSubmoduleConfigurations: false
-                	, extensions: [[$class: 'CleanCheckout']
-                	, [$class: 'PerBuildTag']]
-                	, submoduleCfg: []
-               		// , userRemoteConfigs: [[url: 'git@github.sherwin.com:TAG-IT-Commerce-Dev/SimpleBuild.git']]
-		]
-            )
-	}
-	*/
 
 	stage('Checkout') {
 		checkout scm
