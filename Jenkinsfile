@@ -8,8 +8,9 @@ node {
                 , [$class: 'PerBuildTag']]
                 , submoduleCfg: []
 /*
-                , userRemoteConfigs: [[url: 'git@github.sherwin.com:TAG-IT-Commerce-Dev/SimpleBuild.git']]]
+                , userRemoteConfigs: [[url: 'git@github.sherwin.com:TAG-IT-Commerce-Dev/SimpleBuild.git']]
 */
+]
             )
 	}
    
