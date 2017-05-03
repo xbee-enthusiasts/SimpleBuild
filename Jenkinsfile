@@ -7,7 +7,9 @@ node {
                 , extensions: [[$class: 'CleanCheckout']
                 , [$class: 'PerBuildTag']]
                 , submoduleCfg: []
+/*
                 , userRemoteConfigs: [[url: 'git@github.sherwin.com:TAG-IT-Commerce-Dev/SimpleBuild.git']]]
+*/
             )
 	}
    
